@@ -28,18 +28,18 @@ function transformData(rawData, town, monthType) {
   }
 
   //filter by Month
-  let filterbymonth = function(record) {
-    if (!monthType) {
-      return true;
-    } else if (monthType == record.month) {
-      return true;
-    }
-  }
+  // let filterbymonth = function(record) {
+  //   if (!monthType) {
+  //     return true;
+  //   } else if (monthType == record.month) {
+  //     return true;
+  //   }
+  // }
   let filtered = rawData.filter(filterFunc);
   // let filterbystyrange = filtered.filter(filterbystRange);
   // let filterbyflatType = filterbystyrange.filter(filterbyflattype);
-  let filterbyMonth = filtered.filter(filterbymonth);
-  priceList = filterbyMonth.map(function(record) {
+  // let filterbyMonth = filtered.filter(filterbymonth);
+  priceList = filtered.map(function(record) {
     return {
       'resaleprice': record.resale_price,
       'months': monthNames[record.month]

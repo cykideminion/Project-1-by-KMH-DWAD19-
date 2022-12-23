@@ -14,9 +14,7 @@ window.addEventListener("DOMContentLoaded", async function() {
   ])
   document.querySelector("#droplist").addEventListener('change', function() {
     let town = document.querySelector("#droplist").value;
-    console.log("town", town);
     let transformed = transformData(data, town, null);
-    console.log("Transofmred2".transformed)
     chart.updateSeries([
       {
         'name': 'Sales',

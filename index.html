@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+gi<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -79,17 +79,29 @@
   <!-- this is where the chart will be rendered into -->
 
   <div class="container-fluid">
-    <div class="row align-items-start">
-
-      <div id="chart" class="col" style="height:80vh">
-        <input type="text" id="searchconditions" />
-
-      </div>
-      <div id="chart2" class="col" style="height:80vh">
-        <input type="text" id="searchconditions" />
-        <button id="btnload">Search</button>
+    <div id="chart" class="col" style="height:40vh">
+      <input type="text" id="searchconditions" />
+    </div>
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Ang Mo Kio
+      </a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample">
+        Yishun
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        <div id="chart2" class="col" style="height:80vh">
+          <input type="text" id="searchconditions" />
+          <button id="btnload">Search</button>
+        </div>
       </div>
     </div>
+
+  </div>
   </div>
 
 
