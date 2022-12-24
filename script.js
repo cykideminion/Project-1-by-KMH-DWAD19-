@@ -12,16 +12,24 @@ window.addEventListener("DOMContentLoaded", async function() {
     }
 
   ])
-  document.querySelector("#droplist").addEventListener('change', function() {
-    let town = document.querySelector("#droplist").value;
-    let transformed = transformData(data, town, null);
-    chart.updateSeries([
-      {
-        'name': 'Sales',
-        'data': transformed
-      }
-    ])
-  })
+
+
+  document.querySelector("#droplist").addEventListener;
+  let radionbuttons = document.querySelectorAll('input[name="floortype"]');
+  for (let i = 0; i < radionbuttons.length; i++) {
+    radionbuttons[i].addEventListener('change', function() {
+      let floorType = this.value;
+      let town = document.querySelector("#droplist").value;
+      console.log("FloorType", floorType);
+      let transformed = transformData(data, town, floorType);
+      chart.updateSeries([
+        {
+          'name': 'Sales',
+          'data': transformed
+        }
+      ])
+    })
+  }
 })
 
 
@@ -106,6 +114,62 @@ function drawChart2() {
 
   // create the chart
   const chart = new ApexCharts(document.querySelector('#chart2'), options);
+
+  // render the chart
+  chart.render()
+
+  window.addEventListener("DOMContentLoaded", async function() {
+    const data = await loadData('data.js');
+    let series2 = transformData2(data);
+    // const series2 = transformData2(data);
+
+
+
+    chart.updateSeries([
+      {
+        'name': 'Sales',
+        'data': series2
+      }
+
+    ])
+  })
+
+}
+
+drawChart3();
+function drawChart3() {
+  const options = {
+    chart: {
+      type: 'bar',
+      height: 350
+    },
+    plotOptions: {
+      bar: {
+        horizontal: false,
+        columnWidth: '55%',
+        endingShape: 'rounded'
+      },
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      show: true,
+      width: 2,
+      colors: ['transparent']
+    },
+
+    series: [
+      // NO DATA
+    ],
+    // what to show there is no data
+    noData: {
+      "text": "Loading..."
+    }
+  };
+
+  // create the chart
+  const chart = new ApexCharts(document.querySelector('#chart3'), options);
 
   // render the chart
   chart.render()

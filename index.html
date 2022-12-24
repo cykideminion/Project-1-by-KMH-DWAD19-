@@ -1,4 +1,4 @@
-gi<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -22,6 +22,7 @@ gi<!DOCTYPE html>
 <body>
   <header id="header">A Glance of HDB Resale Market Price in 2022</header>
   <div>
+    <!--     Nav Bar -->
     <nav class="navbar navbar-expand-lg background-color: #e3f2fd;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -34,7 +35,7 @@ gi<!DOCTYPE html>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
+            <!--             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
@@ -50,7 +51,7 @@ gi<!DOCTYPE html>
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
             </li>
@@ -70,14 +71,16 @@ gi<!DOCTYPE html>
         <option value="YISHUN">YISHUN</option>
         <option value="BEDOK">BEDOK</option>
       </select>
+      <input id="rdbtn" name="floortype" type="radio" value="Lower Floor"> Lower Floor </input>
+      <input id="rdbtn" name="floortype" type="radio" value="Middle Floor"> Middle Floor </input>
+      <input id="rdbtn" name="floortype" type="radio" value="High Floor"> High Floor </input>
     </div>
     <div class="col">
       One of three columns
     </div>
     <br>
   </div>
-  <!-- this is where the chart will be rendered into -->
-
+  <!-- Total sale chart -->
   <div class="container-fluid">
     <div id="chart" class="col" style="height:40vh">
       <input type="text" id="searchconditions" />
@@ -87,21 +90,61 @@ gi<!DOCTYPE html>
         aria-controls="collapseExample">
         Ang Mo Kio
       </a>
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-        aria-expanded="false" aria-controls="collapseExample">
-        Yishun
-      </button>
+
     </p>
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
-        <div id="chart2" class="col" style="height:80vh">
-          <input type="text" id="searchconditions" />
-          <button id="btnload">Search</button>
-        </div>
-      </div>
-    </div>
 
-  </div>
+        <!--       Testing 3 rows columns start-->
+        <div class="container-fluid text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <div id="chart2" class="col" style="height:80vh">
+                <input type="text" id="searchconditions" />
+                <button id="btnload">Search</button>
+              </div>
+            </div>
+            <div class="col">
+              <div id="chart3" class="col" style="height:80vh">
+                <input type="text" id="searchconditions" />
+                <button id="btnload">Search</button>
+              </div>
+            </div>
+            <div class="col">
+              One of three columns
+            </div>
+            <div class="col">
+              One of four columns
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col">
+              One of three columns
+            </div>
+            <div class="col">
+              One of three columns
+            </div>
+            <div class="col">
+              One of three columns
+            </div>
+          </div>
+          <div class="row align-items-end">
+            <div class="col">
+              One of three columns
+            </div>
+            <div class="col">
+              One of three columns
+            </div>
+            <div class="col">
+              One of three columns
+            </div>
+          </div>
+        </div>
+        <!--       Testing 3 rows columns end -->
+
+      </div>
+
+    </div>
   </div>
 
 
