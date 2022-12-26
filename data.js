@@ -40,7 +40,7 @@ function transformData(rawData, town, floorType, flatType, flatType, flatType, f
   let filterbyflattype = function(record) {
     if (!flatType) {
       return true;
-    } else if (flatType == record.flat_type) {
+    } else if (flatType[0] == record.flat_type || flatType[1] == record.flat_type || flatType[2] == record.flat_type || flatType[3] == record.flat_type || flatType[4] == record.flat_type || flatType[5] == record.flat_type || flatType[6] == record.flat_type) {
       return true;
     }
   }

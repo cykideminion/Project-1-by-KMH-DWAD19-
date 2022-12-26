@@ -37,7 +37,8 @@ window.addEventListener("DOMContentLoaded", async function() {
       //     .map(j => j.value)
 
       console.log("FlatType", flatType)
-      let transformed = transformData(data, town, floorType, flatType);
+      console.log("FlatType", flatType[0])
+      let transformed = transformData(data, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType);
       chart.updateSeries([
         {
           'name': 'Sales',
