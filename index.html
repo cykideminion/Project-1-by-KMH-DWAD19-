@@ -25,6 +25,9 @@
     <!--     Nav Bar -->
     <nav class="navbar navbar-expand-lg background-color: #e3f2fd;">
       <div class="container-fluid">
+        <div class="navlogo">
+          <img src="images/logo.png" width="100px">
+        </div>
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,12 +71,58 @@
     <div class="col">
       <select id="droplist">
         <option value="ANG MO KIO">ANG MO KIO</option>
-        <option value="YISHUN">YISHUN</option>
         <option value="BEDOK">BEDOK</option>
+        <option value="BISHAN">BISHAN</option>
+        <option value="BUKIT BATOK">BUKIT BATOK</option>
+        <option value="BUKIT MERAH">BUKIT MERAH</option>
+        <option value="BUKIT PANJANG">BUKIT PANJANG</option>
+        <option value="BUKIT BUKIT TIMAH">BUKIT TIMAH</option>
+        <option value="CENTRAL AREA">CENTRAL AREA</option>
+        <option value="CHOA CHU KANG">CHOA CHU KANG</option>
+        <option value="CLEMENTI">CLEMENTI</option>
+        <option value="GEYLANG">GEYLANG</option>
+        <option value="CLEMENTI">CLEMENTI</option>
+        <option value="HOUGANG">HOUGANG</option>
+        <option value="CLEMENTI">CLEMENTI</option>
+        <option value="JURONG EAST">JURONG EAST</option>
+        <option value="JURONG WEST">JURONG WEST</option>
+        <option value="KALLANG/WHAMPOA">KALLANG/WHAMPOA</option>
+        <option value="MARINE PARADE">MARINE PARADE</option>
+        <option value="PASIR RIS">PASIR RIS</option>
+        <option value="PUNGGOL">PUNGGOL</option>
+        <option value="QUEENSTOWN">QUEENSTOWN</option>
+        <option value="SEMBAWANG">SEMBAWANG</option>
+        <option value="SENGKANG">SENGKANG</option>
+        <option value="SERANGOON">SERANGOON</option>
+        <option value="TAMPINES">TAMPINES</option>
+        <option value="TOA PAYOH">TOA PAYOH</option>
+        <option value="WOODLANDS">WOODLANDS</option>
+        <option value="YISHUN">YISHUN</option>
       </select>
+      <br>
+      <br>
       <input id="rdbtn" name="floortype" type="radio" value="Lower Floor"> Lower Floor </input>
       <input id="rdbtn" name="floortype" type="radio" value="Middle Floor"> Middle Floor </input>
       <input id="rdbtn" name="floortype" type="radio" value="High Floor"> High Floor </input>
+      <br>
+      <!--       checkbox start here -->
+      <div id="checkboxbtn">
+        <input type="checkbox" id="flatType" name="flatType" value="1 ROOM">
+        <label for="flatType"> 1 Room</label>
+        <input type="checkbox" id="flatType" name="flatType" value="2 ROOM">
+        <label for="flatType"> 2 Room</label>
+        <input type="checkbox" id="flatType" name="flatType" value="3 ROOM">
+        <label for="flatType"> 3 Room</label><br>
+        <input type="checkbox" id="flatType" name="flatType" value="4 ROOM">
+        <label for="flatType"> 4 Room</label>
+        <input type="checkbox" id="flatType" name="flatType" value="5 ROOM">
+        <label for="flatType"> 5 Room</label>
+        <input type="checkbox" id="flatType" name="flatType" value="EXECUTIVE">
+        <label for="flatType"> Executive</label>
+        <input type="checkbox" id="flatType" name="flatType7" value="MULTI_GENERATION">
+        <label for="flatType"> Multi-Generation</label>
+      </div>
+      <!--       checkbox end here -->
     </div>
     <div class="col">
       One of three columns
@@ -113,9 +162,6 @@
             <div class="col">
               One of three columns
             </div>
-            <div class="col">
-              One of four columns
-            </div>
           </div>
           <div class="row align-items-center">
             <div class="col">
@@ -152,6 +198,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <!-- All global functions in data.js will be available inside script.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script src="data.js"></script>
   <script src="chart.js"></script>

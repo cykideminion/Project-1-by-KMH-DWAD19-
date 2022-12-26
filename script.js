@@ -13,15 +13,31 @@ window.addEventListener("DOMContentLoaded", async function() {
 
   ])
 
+  let checkboxesblock = document.querySelector('#checkboxbtn');
+  checkboxesblock.addEventListener;
 
   document.querySelector("#droplist").addEventListener;
   let radionbuttons = document.querySelectorAll('input[name="floortype"]');
   for (let i = 0; i < radionbuttons.length; i++) {
     radionbuttons[i].addEventListener('change', function() {
       let floorType = this.value;
+      let checkboxes = document.querySelectorAll('#flatType');
+      let selectedboxes = [];
+      for (let checkbox of checkboxes) {
+        if (checkbox.checked) {
+          selectedboxes.push(checkbox.value);
+        }
+      }
+      let flatType = selectedboxes;
       let town = document.querySelector("#droplist").value;
-      console.log("FloorType", floorType);
-      let transformed = transformData(data, town, floorType);
+
+      // selectedcheckboxes =
+      //   Array.from(checkboxes)
+      //     .filter(j => j.checked)
+      //     .map(j => j.value)
+
+      console.log("FlatType", flatType)
+      let transformed = transformData(data, town, floorType, flatType);
       chart.updateSeries([
         {
           'name': 'Sales',
@@ -101,6 +117,10 @@ function drawChart2() {
       show: true,
       width: 2,
       colors: ['transparent']
+    },
+    title: {
+      text: 'Jan HDB Sale Transaction Price',
+      align: 'center'
     },
 
     series: [

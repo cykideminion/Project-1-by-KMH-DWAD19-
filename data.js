@@ -16,7 +16,7 @@ loadData();
 // }
 
 
-function transformData(rawData, town, floorType) {
+function transformData(rawData, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType) {
   let monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
   let filterFunc = function(record) {
@@ -35,11 +35,21 @@ function transformData(rawData, town, floorType) {
       return true;
     }
   }
+
+  //filter by flatType
+  let filterbyflattype = function(record) {
+    if (!flatType) {
+      return true;
+    } else if (flatType == record.flat_type) {
+      return true;
+    }
+  }
   let filtered = rawData.filter(filterFunc);
   // let filterbystyrange = filtered.filter(filterbystRange);
-  // let filterbyflatType = filterbystyrange.filter(filterbyflattype);
+
   let filterbyfloorType = filtered.filter(filterbyfloortype);
-  priceList = filterbyfloorType.map(function(record) {
+  let filterbyflatType = filterbyfloorType.filter(filterbyflattype);
+  priceList = filterbyflatType.map(function(record) {
     return {
       'resaleprice': record.resale_price,
       'months': monthNames[record.month]

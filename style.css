@@ -8,11 +8,26 @@ html, body {
 #header{
   font-family: 'Merriweather', serif;
   font-size: 20pt;
-  align-items: center;
+  text-align: center;
   
 }
 
 #btnload{
   background: skyblue;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navlogo{
+  position: relative;
+}
+
+#droplist{
+  color: #CE932C;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+input{
+  margin-left: 10px;
 }
