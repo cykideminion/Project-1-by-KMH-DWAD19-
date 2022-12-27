@@ -102,7 +102,6 @@ function transformData2(data) {
       "blockNo": dataPoint.block
     }
   })
-  console.log("resalePriceList", resalePriceList)
 
   //shortlist the data for charts
   const shortlisted = [];
@@ -111,19 +110,49 @@ function transformData2(data) {
       shortlisted.push(dataPoint);
     }
   }
-  console.log("shortlisted", shortlisted);
   const series2 = [];
   for (let dataPoint of shortlisted) {
 
     series2.push({
       x: dataPoint.streetName,
       y: dataPoint.resaleprice
+    })
+  }
+  return series2;
+}
+
+function transformData3(data) {
+  const resalePriceList = data.map(function(dataPoint) {
+    return {
+      "floorarea": dataPoint.floor_area_sqm,
+      "town": dataPoint.town,
+      "flatType": dataPoint.flat_type,
+      "month": dataPoint.month,
+      "resaleprice": dataPoint.resale_price,
+      "streetName": dataPoint.street_name,
+      "storeyrange": dataPoint.storey_range,
+      "blockNo": dataPoint.block
+    }
+  })
+
+  const shortlisted = [];
+  for (let dataPoint of resalePriceList) {
+    if (dataPoint.month == 2 && dataPoint.flatType == "3 ROOM" && dataPoint.storeyrange == "Lower Floor" && dataPoint.town == "ANG MO KIO") {
+      shortlisted.push(dataPoint);
+    }
+  }
+  const series3 = [];
+  for (let dataPoint of shortlisted) {
+
+    series3.push({
+      x: dataPoint.streetName,
+      y: dataPoint.resaleprice
 
     })
 
-    console.log("Series", series2);
+    console.log("Series", series3);
 
   }
-  return series2;
+  return series3;
 
 }
