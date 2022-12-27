@@ -28,6 +28,13 @@ html, body {
   margin-left: 10px;
 }
 
+#droplist2{
+  color: #CE932C;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+}
+
 input{
   margin-left: 10px;
 }
