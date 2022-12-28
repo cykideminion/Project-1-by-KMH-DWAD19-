@@ -67,9 +67,9 @@
     </nav>
     <!--     Nav bar end here -->
   </div>
-  <div class="container-lg">
-    <div class="row align-items-start">
-      <div class="col">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col ">
         <select id="droplist">
           <option value="ANG MO KIO">ANG MO KIO</option>
           <option value="BEDOK">BEDOK</option>
@@ -102,10 +102,6 @@
         </select>
         <br>
         <br>
-        <input id="rdbtn" name="floortype" type="radio" value="Lower Floor"> Lower Floor </input>
-        <input id="rdbtn" name="floortype" type="radio" value="Middle Floor"> Middle Floor </input>
-        <input id="rdbtn" name="floortype" type="radio" value="High Floor"> High Floor </input>
-        <br>
         <!--       checkbox start here -->
         <div id="checkboxbtn">
           <input type="checkbox" id="flatType" name="flatType" value="1 ROOM">
@@ -119,10 +115,15 @@
           <input type="checkbox" id="flatType" name="flatType" value="5 ROOM">
           <label for="flatType"> 5 Room</label>
           <input type="checkbox" id="flatType" name="flatType" value="EXECUTIVE">
-          <label for="flatType"> Executive</label>
+          <label for="flatType"> Executive</label> <br>
           <input type="checkbox" id="flatType" name="flatType" value="MULTI_GENERATION">
           <label for="flatType"> Multi-Generation</label>
         </div>
+        <br>
+        <input id="rdbtn" name="floortype" type="radio" value="Lower Floor"> Lower Floor </input>
+        <input id="rdbtn" name="floortype" type="radio" value="Middle Floor"> Middle Floor </input>
+        <input id="rdbtn" name="floortype" type="radio" value="High Floor"> High Floor </input>
+        <br>
       </div>
       <div class="col">
         <select id="droplist2">
@@ -157,10 +158,6 @@
         </select>
         <br>
         <br>
-        <input id="rdbtn" name="floortype2" type="radio" value="Lower Floor"> Lower Floor </input>
-        <input id="rdbtn" name="floortype2" type="radio" value="Middle Floor"> Middle Floor </input>
-        <input id="rdbtn" name="floortype2" type="radio" value="High Floor"> High Floor </input>
-        <br>
         <!--       checkbox start here -->
         <div id="checkboxbtn">
           <input type="checkbox" id="flatType" name="flatType" value="1 ROOM">
@@ -174,10 +171,15 @@
           <input type="checkbox" id="flatType" name="flatType" value="5 ROOM">
           <label for="flatType"> 5 Room</label>
           <input type="checkbox" id="flatType" name="flatType" value="EXECUTIVE">
-          <label for="flatType"> Executive</label>
+          <label for="flatType"> Executive</label><br>
           <input type="checkbox" id="flatType" name="flatType" value="MULTI_GENERATION">
           <label for="flatType"> Multi-Generation</label>
         </div>
+        <br>
+        <input id="rdbtn" name="floortype2" type="radio" value="Lower Floor"> Lower Floor </input>
+        <input id="rdbtn" name="floortype2" type="radio" value="Middle Floor"> Middle Floor </input>
+        <input id="rdbtn" name="floortype2" type="radio" value="High Floor"> High Floor </input>
+
       </div>
     </div>
     <!--       checkbox end here -->
@@ -196,17 +198,16 @@
     </div>
   </div>
   <!--     Total sale chart ends -->
-
-
-
   <p>
-    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-      aria-controls="collapseExample">
-      Ang Mo Kio
-    </a>
-
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseamk" role="button" aria-expanded="false"
+      aria-controls="collapseExample">Ang Mo Kio </a>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebdk" role="button" aria-expanded="false"
+      aria-controls="collapseExample">Bedok </a>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebhn" role="button" aria-expanded="false"
+      aria-controls="collapseExample">Bishan </a>
   </p>
-  <div class="collapse" id="collapseExample">
+
+  <div class="collapse" id="collapseamk">
     <div class="card card-body">
 
       <!--       Testing 3 rows columns start-->
@@ -254,6 +255,68 @@
     </div>
 
   </div>
+  <div class="collapse" id="collapsebdk">
+    <div class="card card-body">
+
+      <!--       Testing 3 rows columns start-->
+      <div>
+        <div class="row align-items-start">
+          <div class="col-md-4" id="bdkchart1" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart2" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart3" style="height:40vh"></div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-4" id="bdkchart4" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart5" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart6" style="height:40vh"></div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col-md-4" id="bdkchart7" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart8" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart9" style="height:40vh"></div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col-md-4" id="bdkchart10" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart11" style="height:40vh"></div>
+          <div class="col-md-4" id="bdkchart12" style="height:40vh"></div>
+        </div>
+      </div>
+      <!--       Testing 3 rows columns end -->
+
+    </div>
+
+  </div>
+  <div class="collapse" id="collapsebhn">
+    <div class="card card-body">
+
+      <!--       Testing 3 rows columns start-->
+      <div>
+        <div class="row align-items-start">
+          <div class="col-md-4" id="bhnchart1" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart2" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart3" style="height:40vh"></div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-4" id="bhnchart4" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart5" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart6" style="height:40vh"></div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col-md-4" id="bhnchart7" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart8" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart9" style="height:40vh"></div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col-md-4" id="bhnchart10" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart11" style="height:40vh"></div>
+          <div class="col-md-4" id="bhnchart12" style="height:40vh"></div>
+        </div>
+      </div>
+      <!--       Testing 3 rows columns end -->
+
+    </div>
+
+  </div>
   </div>
 
 
@@ -265,6 +328,7 @@
 
   <script src="data.js"></script>
   <script src="chart.js"></script>
+  <script src="tem.js"></script>
   <script src="script.js"></script>
 
   <!--   Bootstrap -->

@@ -26,6 +26,7 @@ html, body {
   border-radius: 10px;
   text-align: center;
   margin-left: 10px;
+  align-items: center;
 }
 
 #droplist2{
@@ -33,6 +34,10 @@ html, body {
   border-radius: 10px;
   text-align: center;
   margin-left: 10px;
+}
+
+#chart{
+  height: 300px;
 }
 
 input{
