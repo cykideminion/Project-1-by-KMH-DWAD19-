@@ -13,14 +13,21 @@ window.addEventListener("DOMContentLoaded", async function() {
 
   ])
 
-  let checkboxesblock = document.querySelector('#checkboxbtn');
-  checkboxesblock.addEventListener;
+  // start of original working code
+  let drolisbut = document.querySelector("#droplist");
+  drolisbut.addEventListener('change', function() {
+    let town = document.querySelector("#droplist").value;
+    let floorType;
+    let transformed = transformData(data, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType);
+    chart.updateSeries([
+      {
+        'name': 'Sales',
+        'data': transformed
+      }
+    ])
 
-  document.querySelector("#droplist").addEventListener;
-  let radionbuttons = document.querySelectorAll('input[name="floortype"]');
-  for (let i = 0; i < radionbuttons.length; i++) {
-    radionbuttons[i].addEventListener('change', function() {
-      let floorType = this.value;
+    let checkboxesblock = document.querySelector('#checkboxbtn');
+    checkboxesblock.addEventListener('change', function() {
       let checkboxes = document.querySelectorAll('#flatType');
       let selectedboxes = [];
       for (let checkbox of checkboxes) {
@@ -29,13 +36,6 @@ window.addEventListener("DOMContentLoaded", async function() {
         }
       }
       let flatType = selectedboxes;
-      let town = document.querySelector("#droplist").value;
-
-      // selectedcheckboxes =
-      //   Array.from(checkboxes)
-      //     .filter(j => j.checked)
-      //     .map(j => j.value)
-
       let transformed = transformData(data, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType);
       chart.updateSeries([
         {
@@ -43,10 +43,27 @@ window.addEventListener("DOMContentLoaded", async function() {
           'data': transformed
         }
       ])
+
+      let radionbuttons = document.querySelectorAll('input[name="floortype"]');
+      for (let i = 0; i < radionbuttons.length; i++) {
+        radionbuttons[i].addEventListener('change', function() {
+          floorType = this.value;
+          let transformed = transformData(data, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType);
+          chart.updateSeries([
+            {
+              'name': 'Sales',
+              'data': transformed
+            }
+          ])
+        })
+      }
     })
-  }
+
+
+  })
 })
 
+// end of original working code
 
 
 const options = {
@@ -113,15 +130,21 @@ window.addEventListener("DOMContentLoaded", async function() {
 
   ])
 
-  let checkboxesblock = document.querySelector('#checkboxbtn');
-  checkboxesblock.addEventListener;
+  let drolisbut = document.querySelector("#droplist2");
+  drolisbut.addEventListener('change', function() {
+    let town = document.querySelector("#droplist2").value;
+    let floorType;
+    let transformed = transformData(data, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType);
+    chartsync.updateSeries([
+      {
+        'name': 'Sales',
+        'data': transformed
+      }
+    ])
 
-  document.querySelector("#droplist2").addEventListener;
-  let radionbuttons = document.querySelectorAll('input[name="floortype2"]');
-  for (let i = 0; i < radionbuttons.length; i++) {
-    radionbuttons[i].addEventListener('change', function() {
-      let floorType = this.value;
-      let checkboxes = document.querySelectorAll('#flatType');
+    let checkboxesblock = document.querySelector('#checkboxbtn2');
+    checkboxesblock.addEventListener('change', function() {
+      let checkboxes = document.querySelectorAll('#flatType2');
       let selectedboxes = [];
       for (let checkbox of checkboxes) {
         if (checkbox.checked) {
@@ -129,13 +152,6 @@ window.addEventListener("DOMContentLoaded", async function() {
         }
       }
       let flatType = selectedboxes;
-      let town = document.querySelector("#droplist").value;
-
-      // selectedcheckboxes =
-      //   Array.from(checkboxes)
-      //     .filter(j => j.checked)
-      //     .map(j => j.value)
-
       let transformed = transformData(data, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType);
       chartsync.updateSeries([
         {
@@ -143,8 +159,22 @@ window.addEventListener("DOMContentLoaded", async function() {
           'data': transformed
         }
       ])
+
+      let radionbuttons = document.querySelectorAll('input[name="floortype2"]');
+      for (let i = 0; i < radionbuttons.length; i++) {
+        radionbuttons[i].addEventListener('change', function() {
+          floorType = this.value;
+          let transformed = transformData(data, town, floorType, flatType, flatType, flatType, flatType, flatType, flatType, flatType);
+          chartsync.updateSeries([
+            {
+              'name': 'Sales',
+              'data': transformed
+            }
+          ])
+        })
+      }
     })
-  }
+  })
 })
 
 
