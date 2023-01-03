@@ -29,7 +29,13 @@ display: flex;
  max-width: 100%;
   max-height:100%;
   position: relative;
+ 
+}
 
+.navbarr:hover {
+  border: 2px solid burlywood;
+  border-radius: 30pt;
+  transform: 10s;
   
 }
 
@@ -62,9 +68,46 @@ input{
 }
 
 
-
 #highestpricechart{
-  width: 400px;
+  align-self: center;
 }
 
+.sidecss{
+  width: 400px;
+  height: 700px;
+  background-color: skyblue;
+  display: inline-block;
+}
 
+.sidedata{
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #6b77d1;
+  display: flexbox;  
+  align-content: space-between;
+  justify-content: center;
+  margin: 5px 5px 5px 5px ;
+  padding: 5px 0px 0px 0px;
+/*   margin: 0px 10px 0px 10px ; */
+ 
+/*   align-content: center;
+  justify-content: center; */
+/*   padding: 5px 5px 5px 5px; */
+/*   margin: 0px 3px 0px 3px; */
+  
+ 
+}
+.mainchart{
+  border-style: solid;  
+  border-radius: 10px;
+  border-color: #6b77d1;
+  margin: 5px 5px 5px 5px ;
+  padding: 5px 0px 0px 0px;
+ 
+}
+
+.maindiv{
+  margin: 0px 40px 0px 40px;  
+     
+  
+}

@@ -43,13 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active navbarr" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link navbarr" href="detail.html">Details Transaction</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle navbarr" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Dropdown
               </a>
@@ -66,142 +66,153 @@
               <a class="nav-link disabled">Disabled</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+
         </div>
       </div>
     </nav>
     <!--     Nav bar end here -->
   </div>
-  <div class="container-fluid">
+  <!--   col separate test -->
+  <div class=" maindiv ">
     <div class="row ">
-      <div class="col ">
-        <select id="droplist">
-          <option value="ANG MO KIO">ANG MO KIO</option>
-          <option value="BEDOK">BEDOK</option>
-          <option value="BISHAN">BISHAN</option>
-          <option value="BUKIT BATOK">BUKIT BATOK</option>
-          <option value="BUKIT MERAH">BUKIT MERAH</option>
-          <option value="BUKIT PANJANG">BUKIT PANJANG</option>
-          <option value="BUKIT BUKIT TIMAH">BUKIT TIMAH</option>
-          <option value="CENTRAL AREA">CENTRAL AREA</option>
-          <option value="CHOA CHU KANG">CHOA CHU KANG</option>
-          <option value="CLEMENTI">CLEMENTI</option>
-          <option value="GEYLANG">GEYLANG</option>
-          <option value="CLEMENTI">CLEMENTI</option>
-          <option value="HOUGANG">HOUGANG</option>
-          <option value="CLEMENTI">CLEMENTI</option>
-          <option value="JURONG EAST">JURONG EAST</option>
-          <option value="JURONG WEST">JURONG WEST</option>
-          <option value="KALLANG/WHAMPOA">KALLANG/WHAMPOA</option>
-          <option value="MARINE PARADE">MARINE PARADE</option>
-          <option value="PASIR RIS">PASIR RIS</option>
-          <option value="PUNGGOL">PUNGGOL</option>
-          <option value="QUEENSTOWN">QUEENSTOWN</option>
-          <option value="SEMBAWANG">SEMBAWANG</option>
-          <option value="SENGKANG">SENGKANG</option>
-          <option value="SERANGOON">SERANGOON</option>
-          <option value="TAMPINES">TAMPINES</option>
-          <option value="TOA PAYOH">TOA PAYOH</option>
-          <option value="WOODLANDS">WOODLANDS</option>
-          <option value="YISHUN">YISHUN</option>
-        </select>
-        <br>
-        <br>
-        <!--       checkbox start here -->
-        <div id="checkboxbtn">
-          <input type="checkbox" id="flatType" name="flatType" value="1 ROOM">
-          <label for="flatType"> 1 Room</label>
-          <input type="checkbox" id="flatType" name="flatType" value="2 ROOM">
-          <label for="flatType"> 2 Room</label>
-          <input type="checkbox" id="flatType" name="flatType" value="3 ROOM">
-          <label for="flatType"> 3 Room</label><br>
-          <input type="checkbox" id="flatType" name="flatType" value="4 ROOM">
-          <label for="flatType"> 4 Room</label>
-          <input type="checkbox" id="flatType" name="flatType" value="5 ROOM">
-          <label for="flatType"> 5 Room</label>
-          <input type="checkbox" id="flatType" name="flatType" value="EXECUTIVE">
-          <label for="flatType"> Executive</label> <br>
-          <input type="checkbox" id="flatType" name="flatType" value="MULTI_GENERATION">
-          <label for="flatType"> Multi-Generation</label>
+      <div class="col-sm-10 mainchart">
+        <div class="row ">
+          <div class="col ">
+            <select id="droplist">
+              <option value="ANG MO KIO">ANG MO KIO</option>
+              <option value="BEDOK">BEDOK</option>
+              <option value="BISHAN">BISHAN</option>
+              <option value="BUKIT BATOK">BUKIT BATOK</option>
+              <option value="BUKIT MERAH">BUKIT MERAH</option>
+              <option value="BUKIT PANJANG">BUKIT PANJANG</option>
+              <option value="BUKIT BUKIT TIMAH">BUKIT TIMAH</option>
+              <option value="CENTRAL AREA">CENTRAL AREA</option>
+              <option value="CHOA CHU KANG">CHOA CHU KANG</option>
+              <option value="CLEMENTI">CLEMENTI</option>
+              <option value="GEYLANG">GEYLANG</option>
+              <option value="CLEMENTI">CLEMENTI</option>
+              <option value="HOUGANG">HOUGANG</option>
+              <option value="CLEMENTI">CLEMENTI</option>
+              <option value="JURONG EAST">JURONG EAST</option>
+              <option value="JURONG WEST">JURONG WEST</option>
+              <option value="KALLANG/WHAMPOA">KALLANG/WHAMPOA</option>
+              <option value="MARINE PARADE">MARINE PARADE</option>
+              <option value="PASIR RIS">PASIR RIS</option>
+              <option value="PUNGGOL">PUNGGOL</option>
+              <option value="QUEENSTOWN">QUEENSTOWN</option>
+              <option value="SEMBAWANG">SEMBAWANG</option>
+              <option value="SENGKANG">SENGKANG</option>
+              <option value="SERANGOON">SERANGOON</option>
+              <option value="TAMPINES">TAMPINES</option>
+              <option value="TOA PAYOH">TOA PAYOH</option>
+              <option value="WOODLANDS">WOODLANDS</option>
+              <option value="YISHUN">YISHUN</option>
+            </select>
+            <br>
+            <br>
+            <!--       checkbox start here -->
+            <div id="checkboxbtn">
+              <input type="checkbox" id="flatType" name="flatType" value="1 ROOM">
+              <label for="flatType"> 1 Room</label>
+              <input type="checkbox" id="flatType" name="flatType" value="2 ROOM">
+              <label for="flatType"> 2 Room</label>
+              <input type="checkbox" id="flatType" name="flatType" value="3 ROOM">
+              <label for="flatType"> 3 Room</label><br>
+              <input type="checkbox" id="flatType" name="flatType" value="4 ROOM">
+              <label for="flatType"> 4 Room</label>
+              <input type="checkbox" id="flatType" name="flatType" value="5 ROOM">
+              <label for="flatType"> 5 Room</label>
+              <input type="checkbox" id="flatType" name="flatType" value="EXECUTIVE">
+              <label for="flatType"> Executive</label> <br>
+              <input type="checkbox" id="flatType" name="flatType" value="MULTI_GENERATION">
+              <label for="flatType"> Multi-Generation</label>
+            </div>
+            <br>
+            <input id="rdbtn" name="floortype" type="radio" value="Lower Floor"> Lower Floor </input>
+            <input id="rdbtn" name="floortype" type="radio" value="Middle Floor"> Middle Floor </input>
+            <input id="rdbtn" name="floortype" type="radio" value="High Floor"> High Floor </input>
+            <br>
+          </div>
+          <div class="col">
+            <select id="droplist2">
+              <option value="ANG MO KIO">ANG MO KIO</option>
+              <option value="BEDOK">BEDOK</option>
+              <option value="BISHAN">BISHAN</option>
+              <option value="BUKIT BATOK">BUKIT BATOK</option>
+              <option value="BUKIT MERAH">BUKIT MERAH</option>
+              <option value="BUKIT PANJANG">BUKIT PANJANG</option>
+              <option value="BUKIT BUKIT TIMAH">BUKIT TIMAH</option>
+              <option value="CENTRAL AREA">CENTRAL AREA</option>
+              <option value="CHOA CHU KANG">CHOA CHU KANG</option>
+              <option value="CLEMENTI">CLEMENTI</option>
+              <option value="GEYLANG">GEYLANG</option>
+              <option value="CLEMENTI">CLEMENTI</option>
+              <option value="HOUGANG">HOUGANG</option>
+              <option value="CLEMENTI">CLEMENTI</option>
+              <option value="JURONG EAST">JURONG EAST</option>
+              <option value="JURONG WEST">JURONG WEST</option>
+              <option value="KALLANG/WHAMPOA">KALLANG/WHAMPOA</option>
+              <option value="MARINE PARADE">MARINE PARADE</option>
+              <option value="PASIR RIS">PASIR RIS</option>
+              <option value="PUNGGOL">PUNGGOL</option>
+              <option value="QUEENSTOWN">QUEENSTOWN</option>
+              <option value="SEMBAWANG">SEMBAWANG</option>
+              <option value="SENGKANG">SENGKANG</option>
+              <option value="SERANGOON">SERANGOON</option>
+              <option value="TAMPINES">TAMPINES</option>
+              <option value="TOA PAYOH">TOA PAYOH</option>
+              <option value="WOODLANDS">WOODLANDS</option>
+              <option value="YISHUN">YISHUN</option>
+            </select>
+            <br>
+            <br>
+            <!--       checkbox start here -->
+            <div id="checkboxbtn2">
+              <input type="checkbox" id="flatType2" name="flatType" value="1 ROOM">
+              <label for="flatType"> 1 Room</label>
+              <input type="checkbox" id="flatType2" name="flatType" value="2 ROOM">
+              <label for="flatType"> 2 Room</label>
+              <input type="checkbox" id="flatType2" name="flatType" value="3 ROOM">
+              <label for="flatType"> 3 Room</label><br>
+              <input type="checkbox" id="flatType2" name="flatType" value="4 ROOM">
+              <label for="flatType"> 4 Room</label>
+              <input type="checkbox" id="flatType2" name="flatType" value="5 ROOM">
+              <label for="flatType"> 5 Room</label>
+              <input type="checkbox" id="flatType2" name="flatType" value="EXECUTIVE">
+              <label for="flatType"> Executive</label><br>
+              <input type="checkbox" id="flatType2" name="flatType" value="MULTI_GENERATION">
+              <label for="flatType"> Multi-Generation</label>
+            </div>
+            <br>
+            <input id="rdbtn" name="floortype2" type="radio" value="Lower Floor"> Lower Floor </input>
+            <input id="rdbtn" name="floortype2" type="radio" value="Middle Floor"> Middle Floor </input>
+            <input id="rdbtn" name="floortype2" type="radio" value="High Floor"> High Floor </input>
+
+          </div>
         </div>
-        <br>
-        <input id="rdbtn" name="floortype" type="radio" value="Lower Floor"> Lower Floor </input>
-        <input id="rdbtn" name="floortype" type="radio" value="Middle Floor"> Middle Floor </input>
-        <input id="rdbtn" name="floortype" type="radio" value="High Floor"> High Floor </input>
-        <br>
-      </div>
-      <div class="col">
-        <select id="droplist2">
-          <option value="ANG MO KIO">ANG MO KIO</option>
-          <option value="BEDOK">BEDOK</option>
-          <option value="BISHAN">BISHAN</option>
-          <option value="BUKIT BATOK">BUKIT BATOK</option>
-          <option value="BUKIT MERAH">BUKIT MERAH</option>
-          <option value="BUKIT PANJANG">BUKIT PANJANG</option>
-          <option value="BUKIT BUKIT TIMAH">BUKIT TIMAH</option>
-          <option value="CENTRAL AREA">CENTRAL AREA</option>
-          <option value="CHOA CHU KANG">CHOA CHU KANG</option>
-          <option value="CLEMENTI">CLEMENTI</option>
-          <option value="GEYLANG">GEYLANG</option>
-          <option value="CLEMENTI">CLEMENTI</option>
-          <option value="HOUGANG">HOUGANG</option>
-          <option value="CLEMENTI">CLEMENTI</option>
-          <option value="JURONG EAST">JURONG EAST</option>
-          <option value="JURONG WEST">JURONG WEST</option>
-          <option value="KALLANG/WHAMPOA">KALLANG/WHAMPOA</option>
-          <option value="MARINE PARADE">MARINE PARADE</option>
-          <option value="PASIR RIS">PASIR RIS</option>
-          <option value="PUNGGOL">PUNGGOL</option>
-          <option value="QUEENSTOWN">QUEENSTOWN</option>
-          <option value="SEMBAWANG">SEMBAWANG</option>
-          <option value="SENGKANG">SENGKANG</option>
-          <option value="SERANGOON">SERANGOON</option>
-          <option value="TAMPINES">TAMPINES</option>
-          <option value="TOA PAYOH">TOA PAYOH</option>
-          <option value="WOODLANDS">WOODLANDS</option>
-          <option value="YISHUN">YISHUN</option>
-        </select>
-        <br>
-        <br>
-        <!--       checkbox start here -->
-        <div id="checkboxbtn2">
-          <input type="checkbox" id="flatType2" name="flatType" value="1 ROOM">
-          <label for="flatType"> 1 Room</label>
-          <input type="checkbox" id="flatType2" name="flatType" value="2 ROOM">
-          <label for="flatType"> 2 Room</label>
-          <input type="checkbox" id="flatType2" name="flatType" value="3 ROOM">
-          <label for="flatType"> 3 Room</label><br>
-          <input type="checkbox" id="flatType2" name="flatType" value="4 ROOM">
-          <label for="flatType"> 4 Room</label>
-          <input type="checkbox" id="flatType2" name="flatType" value="5 ROOM">
-          <label for="flatType"> 5 Room</label>
-          <input type="checkbox" id="flatType2" name="flatType" value="EXECUTIVE">
-          <label for="flatType"> Executive</label><br>
-          <input type="checkbox" id="flatType2" name="flatType" value="MULTI_GENERATION">
-          <label for="flatType"> Multi-Generation</label>
+        <div class="row align-items-center">
+          <div id="chart" class="col-md-6" style="height:30vh">
+          </div>
+          <div id="chartsync" class="col-md-6" style="height:30vh">
+          </div>
+          <!--       checkbox end here -->
         </div>
-        <br>
-        <input id="rdbtn" name="floortype2" type="radio" value="Lower Floor"> Lower Floor </input>
-        <input id="rdbtn" name="floortype2" type="radio" value="Middle Floor"> Middle Floor </input>
-        <input id="rdbtn" name="floortype2" type="radio" value="High Floor"> High Floor </input>
 
       </div>
+      <div class="col-sm-auto sidedata">
+
+        <div class="col-sm-6" id="circhartamk" style="width: 200px;"></div>
+        <div class="col-sm-6" id="circhartbdk" style="width: 200px;"></div>
+
+
+      </div>
+
+      <br>
     </div>
-    <!--       checkbox end here -->
-  </div>
 
-  <br>
-  </div>
-  <!-- Total sale chart start-->
-  <div>
-    <div class="row">
-      <div id="chart" class="col-md" style="height:40vh">
-      </div>
-      <div id="chartsync" class="col-md" style="height:40vh">
-      </div>
+    <!-- Total sale chart start-->
+    <div>
+
 
     </div>
   </div>
@@ -210,7 +221,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md align-self-start" id="highestpricechart" style="height:40vh"></div>
+      <div class="col-md" id="highestpricechart" style="height:40vh"></div>
       <div class="col-md" id="treechart" style="height:40vh"></div>
     </div>
   </div>
@@ -591,6 +602,7 @@
   <script src="compchart.js"></script>
   <script src="data.js"></script>
   <script src="chart.js"></script>
+  <script src="detailchart.js"></script>
 
   <script src="tem.js"></script>
   <script src="script.js"></script>

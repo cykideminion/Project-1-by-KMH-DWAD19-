@@ -17,7 +17,7 @@ let options15 = {
     curve: 'straight'
   },
   title: {
-    text: 'Product Trends by Month',
+    text: 'Highest Transactions by Room Type',
     align: 'left'
   },
   annotations: {
@@ -269,9 +269,120 @@ let options6 = {
     type: 'treemap'
   },
   title: {
-    text: 'Basic Treemap'
+    text: 'Number of flats transacted in 2022'
   }
 };
 
-var chartTree = new ApexCharts(document.querySelector("#treechart"), options6);
+let chartTree = new ApexCharts(document.querySelector("#treechart"), options6);
 chartTree.render();
+
+var optionscir = {
+  series: [20, 508, 290, 146, 16],
+  chart: {
+    height: 250,
+    type: 'radialBar',
+  },
+  title: {
+    text: 'AMK'
+  },
+  plotOptions: {
+    radialBar: {
+      dataLabels: {
+        name: {
+          show: true,
+          fontSize: '22px',
+        },
+        value: {
+          show: true,
+          fontSize: '16px',
+        },
+        total: {
+          show: true,
+          label: 'Total',
+          formatter: function(w) {
+            // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
+            return 980
+          }
+        }
+      }
+    }
+  },
+  labels: ['2 Room', '3 Room', '4 Room', '5 Room', 'Executive'],
+};
+
+var chartcir = new ApexCharts(document.querySelector("#circhartamk"), optionscir);
+chartcir.render();
+
+var optionscirbdk = {
+  series: [20, 529, 438, 248, 74],
+  chart: {
+    height: 250,
+    type: 'radialBar',
+  },
+  title: {
+    text: 'Bedok'
+  },
+  plotOptions: {
+    radialBar: {
+      dataLabels: {
+        name: {
+          show: true,
+          fontSize: '22px',
+        },
+        value: {
+          show: true,
+          fontSize: '16px',
+        },
+        total: {
+          show: true,
+          label: 'Total',
+          formatter: function(w) {
+            // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
+            return 1309
+          }
+        }
+      }
+    }
+  },
+  labels: ['2 Room', '3 Room', '4 Room', '5 Room', 'Executive'],
+};
+
+var chartcirbdk = new ApexCharts(document.querySelector("#circhartbdk"), optionscirbdk);
+chartcirbdk.render();
+
+var optionscirbhn = {
+  series: [63, 194, 136, 51],
+  chart: {
+    height: 250,
+    type: 'radialBar',
+  },
+  title: {
+    text: 'Bishan'
+  },
+  plotOptions: {
+    radialBar: {
+      dataLabels: {
+        name: {
+          show: true,
+          fontSize: '22px',
+        },
+        value: {
+          show: true,
+          fontSize: '16px',
+        },
+        total: {
+          show: true,
+          label: 'Total',
+          formatter: function(w) {
+            // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
+            return 1309
+          }
+        }
+      }
+    }
+  },
+  labels: ['3 Room', '4 Room', '5 Room', 'Executive'],
+};
+
+var chartcirbhn = new ApexCharts(document.querySelector("#circhartbhn"), optionscirbhn);
+chartcirbhn.render();
