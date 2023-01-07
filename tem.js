@@ -1,407 +1,263 @@
-// //cmtChart1
-// function transformDatacmt1(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart1
+// function shortlistedDatayhn1() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 0 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 0 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt1 = [];
+//   const seriesyhn1 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt1.push({
+//     seriesyhn1.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt1;
+//   return seriesyhn1;
 
 // }
 
-// //cmtChart2
-// function transformDatacmt2(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart2
+// function shortlistedDatayhn2() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 1 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 1 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt3 = [];
+//   const seriesyhn3 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt3.push({
+//     seriesyhn3.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt3;
+//   return seriesyhn3;
 
 // }
 
-// //cmtChart3
-// function transformDatacmt3(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart3
+// function shortlistedDatayhn3() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 2 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 2 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt3 = [];
+//   const seriesyhn3 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt3.push({
+//     seriesyhn3.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt3;
+//   return seriesyhn3;
 
 // }
 
-// //cmtChart4
-// function transformDatacmt4(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart4
+// function shortlistedDatayhn4() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 3 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 3 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt4 = [];
+//   const seriesyhn4 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt4.push({
+//     seriesyhn4.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt4;
+//   return seriesyhn4;
 
 // }
 
-// //cmtChart5
-// function transformDatacmt5(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart5
+// function shortlistedDatayhn5() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 4 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 4 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt5 = [];
+//   const seriesyhn5 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt5.push({
+//     seriesyhn5.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt5;
+//   return seriesyhn5;
 
 // }
 
-// //cmtChart6
-// function transformDatacmt6(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart6
+// function shortlistedDatayhn6() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 5 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 5 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt6 = [];
+//   const seriesyhn6 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt6.push({
+//     seriesyhn6.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt6;
+//   return seriesyhn6;
 
 // }
 
-// //cmtChart7
-// function transformDatacmt7(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart7
+// function shortlistedDatayhn7() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 6 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 6 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt7 = [];
+//   const seriesyhn7 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt7.push({
+//     seriesyhn7.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt7;
+//   return seriesyhn7;
 
 // }
 
-// //cmtChart8
-// function transformDatacmt8(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart8
+// function shortlistedDatayhn8() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 7 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 7 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt8 = [];
+//   const seriesyhn8 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt8.push({
+//     seriesyhn8.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt8;
+//   return seriesyhn8;
 
 // }
 
-// //cmtChart9
-// function transformDatacmt9(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart9
+// function shortlistedDatayhn9() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 8 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 8 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt9 = [];
+//   const seriesyhn9 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt9.push({
+//     seriesyhn9.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt9;
+//   return seriesyhn9;
 
 // }
 
-// //cmtChart10
-// function transformDatacmt10(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart10
+// function shortlistedDatayhn10() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 9 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 9 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt10 = [];
+//   const seriesyhn10 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt10.push({
+//     seriesyhn10.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt10;
+//   return seriesyhn10;
 
 // }
 
-// //cmtChart11
-// function transformDatacmt11(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart11
+// function shortlistedDatayhn11() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 10 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 10 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt11 = [];
+//   const seriesyhn11 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt11.push({
+//     seriesyhn11.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt11;
+//   return seriesyhn11;
 
 // }
 
-// //cmtChart12
-// function transformDatacmt12(data) {
-//   const resalePriceList = data.map(function(dataPoint) {
-//     return {
-//       "floorarea": dataPoint.floor_area_sqm,
-//       "town": dataPoint.town,
-//       "flatType": dataPoint.flat_type,
-//       "month": dataPoint.month,
-//       "resaleprice": dataPoint.resale_price,
-//       "streetName": dataPoint.street_name,
-//       "storeyrange": dataPoint.storey_range,
-//       "blockNo": dataPoint.block
-//     }
-//   })
+// //yhnChart12
+// function shortlistedDatayhn12() {
 
 //   const shortlisted = [];
 //   for (let dataPoint of resalePriceList) {
-//     if (dataPoint.month == 11 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "CLEMENTI") {
+//     if (dataPoint.month == 11 && dataPoint.flatType == "3 ROOM" && dataPoint.town == "YISHUN") {
 //       shortlisted.push(dataPoint);
 //     }
 //   }
-//   const seriescmt12 = [];
+//   const seriesyhn12 = [];
 //   for (let dataPoint of shortlisted) {
 
-//     seriescmt12.push({
+//     seriesyhn12.push({
 //       x: dataPoint.streetName,
 //       y: dataPoint.resaleprice
 
 //     })
 //   }
-//   return seriescmt12;
+//   return seriesyhn12;
 
 // }

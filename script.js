@@ -84,7 +84,16 @@ const options = {
   },
   title: {
     text: 'Total HDB Resale Trasaction by Month',
-    align: 'center'
+    align: 'center',
+    margin: 10,
+    offsetX: 0,
+    offsetY: 0,
+    style: {
+      fontSize: '18px',
+      fontWeight: 'bold',
+      fontFamily: 'Arial, Helvetica, sans-serif',
+      color: '#f42272'
+    },
   },
 
   grid: {

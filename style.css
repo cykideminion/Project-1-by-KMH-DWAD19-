@@ -67,10 +67,26 @@ input{
   
 }
 
-
-#highestpricechart{
-  align-self: center;
+.comchart{
+/*   margin: 0px 20px 0px 20px; */
+  display: flexbox;
+ align-items: center;
+/*   margin: 5px 40px 5px 40px ;
+  padding: 0px 40px 0px 40px; */
 }
+
+.comchartidv{
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #6b77d1;
+  
+   
+}
+
+
+/* #highestpricechart{
+  align-self: center;
+} */
 
 .sidecss{
   width: 400px;
@@ -109,5 +125,11 @@ input{
 .maindiv{
   margin: 0px 40px 0px 40px;  
      
+  
+}
+
+.modal-body{
+height: 980px;
+  width: 980px;
   
 }

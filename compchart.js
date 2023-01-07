@@ -75,6 +75,32 @@ let options15 = {
         }
       },
       {
+        x: "5 ROOM",
+        strokeDashArray: 0,
+        borderColor: "#775DD0",
+        label: {
+          borderColor: "#775DD0",
+          style: {
+            color: "#fff",
+            background: "#775DD0"
+          },
+          text: "BUKIT TIMAH, 150 sqm"
+        }
+      },
+      {
+        x: "EXECUTIVE",
+        strokeDashArray: 0,
+        borderColor: "#775DD0",
+        label: {
+          borderColor: "#775DD0",
+          style: {
+            color: "#fff",
+            background: "#775DD0"
+          },
+          text: "QUEENSTOWN, 122 sqm"
+        }
+      },
+      {
         x: "MULTI-GENERATION",
         strokeDashArray: 0,
         borderColor: "#775DD0",
@@ -88,53 +114,8 @@ let options15 = {
         }
       }
     ],
-    points:
-      [
-        {
-          x: "5 ROOM",
-          y: 1418000,
-          marker: {
-            size: 6,
-            fillColor: "#fff",
-            strokeColor: "#2698FF",
-            radius: 2
-          },
-          label: {
-            borderColor: "#FF4560",
-            offsetY: 0,
-            style: {
-              color: "#fff",
-              background: "#FF4560"
-            },
 
-            text: "QUEENSTOWN, 122 sqm"
-          }
-        },
-        {
-          x: "EXECUTIVE",
-          y: 1290800,
-          marker: {
-            size: 6,
-            fillColor: "#fff",
-            strokeColor: "#2698FF",
-            radius: 2
-          },
-          label: {
-            borderColor: "#FF4560",
-            offsetY: 0,
-            style: {
-              color: "#fff",
-              background: "#FF4560"
-            },
-
-            text: "BUKIT TIMAH, 150 sqm"
-          }
-        }
-
-      ]
   },
-
-
   grid: {
     row: {
       colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
@@ -268,6 +249,12 @@ let options6 = {
     height: 350,
     type: 'treemap'
   },
+  plotOptions: {
+    treemap: {
+      distributed: true
+    }
+  },
+   
   title: {
     text: 'Number of flats transacted in 2022'
   }
