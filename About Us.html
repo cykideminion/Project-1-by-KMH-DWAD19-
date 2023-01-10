@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--   Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!--   Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Open+Sans:ital,wght@0,400;0,500;1,500;1,600&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!--   nav bar start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid navbardiv ">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo1.png" width="100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active navbarr" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbarr" href="detail.html">Details Transaction</a>
+          </li>          
+          <li class="nav-item">
+              <a class="nav-link navbarr" href="detail.html">About Us</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--   nav bar ends -->
+  <h1 style="text-align: center;"> Number of Flats transacted in 2022 by Towns </h1>
+  <!--   Side section start here -->
+
+  <div class="row syncchart">
+    <div id="chartsta" class="col-md-6" style="height:40vh">
+    </div>
+    <div id="chartsta2" class="col-md-6" style="height:40vh">
+    </div>
+  </div>
+  <div class="row syncchart">
+    <div id="chartsta3" class="col- -6" style="height:40vh">
+    </div>
+    <div id="chartsta4" class="col-md-6" style="height:40vh">
+    </div>
+  </div>
+
+  <div class="row  syncchart ">
+    <div class="col-sm-3" id="donchartamk" style="width: 18vw;"></div>
+    <div class="col-sm-3" id="donchartbdk" style="width: 18vw;"></div>
+    <div class="col-sm-3" id="donchartbhn" style="width: 18vw;"></div>
+    <div class="col-sm-3" id="donchartbbt" style="width: 18vw;"></div>
+    <!--     <div class="col-sm-3" id="donchartbmh" style="width: 18vw;"></div> -->
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <!-- All global functions in data.js will be available inside script.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="compchart.js"></script>
+  <script src="data.js"></script>
+  <script src="chart.js"></script>
+  <script src="detailchart.js"></script>
+
+  <script src="tem.js"></script>
+  <script src="script.js"></script>
+
+  <!--   Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

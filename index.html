@@ -20,28 +20,19 @@
 </head>
 
 <body>
-  <div class="container headerdiv">
-    <div class="navlogo">
-      <img src="images/logo1.png" width="100px">
-    </div>
-    <div class="text">
-      <h5 id="header">A Glance of HDB Resale Market Price in 2022</h5>
-    </div>
-  </div>
-
-
 
   <!--     Nav Bar -->
   <div>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+    <nav class="navbar navbarmaindiv navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid navbardiv ">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo1.png" width="100px">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active navbarr" aria-current="page" href="index.html">Home</a>
@@ -49,22 +40,9 @@
             <li class="nav-item">
               <a class="nav-link navbarr" href="detail.html">Details Transaction</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle navbarr" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
+
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link navbarr" href="About Us.html">About Us</a>
             </li>
           </ul>
 
@@ -73,12 +51,14 @@
     </nav>
     <!--     Nav bar end here -->
   </div>
-  <!--   col separate test -->
+  </div? <!-- col separate test -->
   <div class=" maindiv">
     <div class="row ">
       <div class="col-sm-10 mainchart">
         <div class="row ">
+          <div class="maincharttxt">Total HDB Sales comparison Chart</div>
           <div class="col ">
+            <div class="townselector">Select Town:</div>
             <select id="droplist">
               <option value="ANG MO KIO">ANG MO KIO</option>
               <option value="BEDOK">BEDOK</option>
@@ -111,6 +91,7 @@
             </select>
             <br>
             <br>
+            <div class="para">Select Room Type:</div>
             <!--       checkbox start here -->
             <div id="checkboxbtn">
               <input type="checkbox" id="flatType" name="flatType" value="1 ROOM">
@@ -129,12 +110,14 @@
               <label for="flatType"> Multi-Generation</label>
             </div>
             <br>
+            <div class="para">Select Floor Type:</div>
             <input id="rdbtn" name="floortype" type="radio" value="Lower Floor"> Lower Floor </input>
             <input id="rdbtn" name="floortype" type="radio" value="Middle Floor"> Middle Floor </input>
             <input id="rdbtn" name="floortype" type="radio" value="High Floor"> High Floor </input>
             <br>
           </div>
           <div class="col">
+            <div class="townselector">Select Town:</div>
             <select id="droplist2">
               <option value="ANG MO KIO">ANG MO KIO</option>
               <option value="BEDOK">BEDOK</option>
@@ -167,6 +150,7 @@
             </select>
             <br>
             <br>
+            <div class="para">Select Room Type:</div>
             <!--       checkbox start here -->
             <div id="checkboxbtn2">
               <input type="checkbox" id="flatType2" name="flatType" value="1 ROOM">
@@ -185,6 +169,7 @@
               <label for="flatType"> Multi-Generation</label>
             </div>
             <br>
+            <div class="para">Select Floor Type:</div>
             <input id="rdbtn" name="floortype2" type="radio" value="Lower Floor"> Lower Floor </input>
             <input id="rdbtn" name="floortype2" type="radio" value="Middle Floor"> Middle Floor </input>
             <input id="rdbtn" name="floortype2" type="radio" value="High Floor"> High Floor </input>
@@ -200,11 +185,13 @@
         </div>
 
       </div>
-      <div class="col-sm-auto sidedata">
+      <div class="col-sm sidedata">
+        <div class="maincharttxt2">Flats transacted by Towns</div>
 
-        <div class="col-sm-6" id="circhartamk" style="width: 200px;"></div>
-        <div class="col-sm-6" id="circhartbdk" style="width: 200px;"></div>
-
+        <div class="col-sm-6" id="donchartamk" style="width: 200px;"></div>
+        <div class="col-sm-6" id="donchartbdk" style="width: 200px;"></div>
+        <div class="col-sm-6" id="donchartbhn" style="width: 200px;"></div>
+        <p class="detailsty"><a href="detail.html" target="_top">More Detail</a></p>
 
       </div>
 
@@ -218,6 +205,885 @@
     </div>
   </div>
   <!--     Total sale chart ends -->
+
+  <!-- Individual chart starts here -->
+  <div class="container-fluid buttons">
+    <div class="indivchartstyle">Individual Price of all 3 Room Transacted in 2022
+      <div class="buttons">
+        <div class=" row buttons">
+          <p class="buttons">
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapseamk" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Ang Mo Kio </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsebdk" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Bedok </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsebhn" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Bishan </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsebbt" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Bukit Batok </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsebmh" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Bukit Merah </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsebpj" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Bukit Panjang </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsebtm" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Bukit Timah </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsectr" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Central Area </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsecck" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Choa Chu Kang </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsecmt" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Clementi </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsegey" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Geylang </a>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsehkg" role="button" aria-expanded="false"
+              aria-controls="collapseExample">Hougang </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsejee" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Jurong East </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsejew" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Jurong West </a>
+          </p>
+          <p class="buttons">
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapseklwp" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Kallang/Whampoa </a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsemrp" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Marine Parade</a>
+
+
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsepsr" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Pasir Ris</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsepgg" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Punggol</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapseqst" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Queenstown</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsesbw" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Sembawang</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapseskg" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Sengkang</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsesrg" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Serangoon</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsetmp" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Tampines</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsetpy" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Toa Payoh</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapsewdl" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Woodlands</a>
+            <a class="btn btn-primary buttonsind" data-bs-toggle="collapse" href="#collapseyhn" role="button"
+              aria-expanded="false" aria-controls="collapseExample">Yishun</a>
+          </p>
+
+
+          <div class="collapse" id="collapseamk">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div class="container-fluid text-center">
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="amkchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="amkchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="amkchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="amkchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="amkchart12" style="height:40vh"></div>
+                </div>
+              </div>
+            </div>
+            <!--       Testing 3 rows columns end -->
+
+          </div>
+          <div class="collapse" id="collapsebdk">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="bdkchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="bdkchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bdkchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bdkchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="bdkchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsebhn">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="bhnchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="bhnchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bhnchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bhnchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="bhnchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsebbt">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="bbtchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="bbtchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bbtchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bbtchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="bbtchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsebmh">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="bmhchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="bmhchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bmhchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bmhchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="bmhchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsebpj">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="bpjchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="bpjchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bpjchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="bpjchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="bpjchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsebtm">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="btmchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="btmchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="btmchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="btmchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="btmchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsectr">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="ctrchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="ctrchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="ctrchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="ctrchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="ctrchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsecck">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="cckchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="cckchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="cckchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="cckchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="cckchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsecmt">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="cmtchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="cmtchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="cmtchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="cmtchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="cmtchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsegey">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="geychart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="geychart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="geychart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="geychart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="geychart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsehkg">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="hkgchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="hkgchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="hkgchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="hkgchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="hkgchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsejee">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="jeechart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="jeechart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="jeechart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="jeechart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="jeechart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsejew">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="jewchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="jewchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="jewchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="jewchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="jewchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapseklwp">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="klwpchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="klwpchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="klwpchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="klwpchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="klwpchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsemrp">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="Mrpchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="Mrpchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="Mrpchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="Mrpchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="Mrpchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsepsr">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="psrchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="psrchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="psrchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="psrchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="psrchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsepgg">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="pggchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="pggchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="pggchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="pggchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="pggchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapseqst">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="qstchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="qstchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="qstchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="qstchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="qstchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsesbw">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="sbwchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="sbwchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="sbwchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="sbwchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="sbwchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapseskg">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="skgchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="skgchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="skgchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="skgchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="skgchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsesrg">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="srgchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="srgchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="srgchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="srgchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="srgchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsetmp">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="tmpchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="tmpchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="tmpchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="tmpchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="tmpchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsetpy">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="tpychart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="tpychart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="tpychart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="tpychart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="tpychart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapsewdl">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="wdlchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="wdlchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="wdlchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="wdlchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="wdlchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+          <div class="collapse" id="collapseyhn">
+            <div class="card card-body">
+
+              <!--       Testing 3 rows columns start-->
+              <div>
+                <div class="row align-items-start">
+                  <div class="col-md-4" id="yhnchart1" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart2" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart3" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-4" id="yhnchart4" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart5" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart6" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="yhnchart7" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart8" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart9" style="height:40vh"></div>
+                </div>
+                <div class="row align-items-end">
+                  <div class="col-md-4" id="yhnchart10" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart11" style="height:40vh"></div>
+                  <div class="col-md-4" id="yhnchart12" style="height:40vh"></div>
+                </div>
+              </div>
+              <!--       Testing 3 rows columns end -->
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Individual chart ends here -->
+
   <!--   comparison chart start here -->
 
   <div class="container-fluid px-4 comchart">
@@ -228,884 +1094,40 @@
   </div>
   <!--   comparison chart ends here -->
 
-  <!-- Individual chart starts here -->
-  <div class="container">
-    <div class=" row align-items-center">
-      <div class="col-sm12">
-        <p>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseamk" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Ang Mo Kio </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebdk" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Bedok </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebhn" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Bishan </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebbt" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Bukit Batok </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebmh" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Bukit Merah </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebpj" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Bukit Panjang </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsebtm" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Bukit Timah </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsectr" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Central Area </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsecck" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Choa Chu Kang </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsecmt" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Clementi </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsegey" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Geylang </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsehkg" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Hougang </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsejee" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Jurong East </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsejew" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Jurong West </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseklwp" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Kallang/Whampoa </a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsemrp" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Marine Parade</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsepsr" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Pasir Ris</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsepgg" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Punggol</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseqst" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Queenstown</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsesbw" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Sembawang</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseskg" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Sengkang</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsesrg" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Serangoon</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsetmp" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Tampines</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsetpy" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Toa Payoh</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsewdl" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Woodlands</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseyhn" role="button" aria-expanded="false"
-            aria-controls="collapseExample">Yishun</a>
-        </p>
+
+  </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="social">
+        <a href="https://www.instagram.com/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.twitter.com/">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="https://www.snapchat.com/">
+          <ion-icon name="logo-snapchat"></ion-icon>
+        </a>
+        <a href="https://www.facebook.com/">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
       </div>
-
-      <div class="collapse" id="collapseamk">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div class="container-fluid text-center">
-            <div class="row align-items-start">
-              <div class="col-md-4" id="amkchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="amkchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="amkchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="amkchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="amkchart12" style="height:40vh"></div>
-            </div>
-          </div>
-        </div>
-        <!--       Testing 3 rows columns end -->
-
-      </div>
-      <div class="collapse" id="collapsebdk">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="bdkchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="bdkchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bdkchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bdkchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="bdkchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsebhn">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="bhnchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="bhnchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bhnchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bhnchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="bhnchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsebbt">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="bbtchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="bbtchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bbtchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bbtchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="bbtchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsebmh">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="bmhchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="bmhchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bmhchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bmhchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="bmhchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsebpj">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="bpjchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="bpjchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bpjchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="bpjchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="bpjchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsebtm">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="btmchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="btmchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="btmchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="btmchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="btmchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsectr">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="ctrchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="ctrchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="ctrchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="ctrchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="ctrchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsecck">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="cckchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="cckchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="cckchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="cckchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="cckchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsecmt">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="cmtchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="cmtchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="cmtchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="cmtchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="cmtchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsegey">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="geychart1" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart2" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="geychart4" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart5" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="geychart7" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart8" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="geychart10" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart11" style="height:40vh"></div>
-              <div class="col-md-4" id="geychart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsehkg">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="hkgchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="hkgchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="hkgchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="hkgchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="hkgchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsejee">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="jeechart1" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart2" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="jeechart4" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart5" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="jeechart7" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart8" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="jeechart10" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart11" style="height:40vh"></div>
-              <div class="col-md-4" id="jeechart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsejew">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="jewchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="jewchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="jewchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="jewchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="jewchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapseklwp">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="klwpchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="klwpchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="klwpchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="klwpchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="klwpchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsemrp">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="Mrpchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="Mrpchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="Mrpchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="Mrpchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="Mrpchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsepsr">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="psrchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="psrchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="psrchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="psrchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="psrchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsepgg">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="pggchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="pggchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="pggchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="pggchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="pggchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapseqst">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="qstchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="qstchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="qstchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="qstchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="qstchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsesbw">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="sbwchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="sbwchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="sbwchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="sbwchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="sbwchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapseskg">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="skgchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="skgchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="skgchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="skgchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="skgchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsesrg">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="srgchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="srgchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="srgchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="srgchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="srgchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsetmp">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="tmpchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="tmpchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="tmpchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="tmpchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="tmpchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsetpy">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="tpychart1" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart2" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="tpychart4" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart5" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="tpychart7" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart8" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="tpychart10" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart11" style="height:40vh"></div>
-              <div class="col-md-4" id="tpychart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapsewdl">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="wdlchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="wdlchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="wdlchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="wdlchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-      <div class="collapse" id="collapseyhn">
-        <div class="card card-body">
-
-          <!--       Testing 3 rows columns start-->
-          <div>
-            <div class="row align-items-start">
-              <div class="col-md-4" id="yhnchart1" style="height:40vh"></div>
-              <div class="col-md-4" id="yhnchart2" style="height:40vh"></div>
-              <div class="col-md-4" id="yhnchart3" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-4" id="yhnchart4" style="height:40vh"></div>
-              <div class="col-md-4" id="yhnchart5" style="height:40vh"></div>
-              <div class="col-md-4" id="wdlchart6" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="yhnchart7" style="height:40vh"></div>
-              <div class="col-md-4" id="yhnchart8" style="height:40vh"></div>
-              <div class="col-md-4" id="yhnchart9" style="height:40vh"></div>
-            </div>
-            <div class="row align-items-end">
-              <div class="col-md-4" id="yhnchart10" style="height:40vh"></div>
-              <div class="col-md-4" id="yhnchart11" style="height:40vh"></div>
-              <div class="col-md-4" id="yhnchart12" style="height:40vh"></div>
-            </div>
-          </div>
-          <!--       Testing 3 rows columns end -->
-
-        </div>
-
-      </div>
-
+      <ul class="listfoot">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Detail Information</a>
+        </li>
+        <li>
+          <a href="#">About Us</a>
+        </li>
     </div>
 
-  </div>
-  <!-- Individual chart ends here -->
 
-  </div>
-  </div>
-
-  <!--     Testing offcanvas -->
-
-
-  <!--     end of testing collapse -->
+  </footer>
 
 
 
@@ -1123,6 +1145,8 @@
 
   <script src="tem.js"></script>
   <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <!--   Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

@@ -72,6 +72,7 @@ const options = {
     group: 'HDB Resale Transaction',
     id: 'type2',
     type: 'line',
+
     zoom: {
       enabled: false
     }
@@ -80,19 +81,20 @@ const options = {
     enabled: false
   },
   stroke: {
-    curve: 'straight'
+    curve: 'straight',
+    colors: ['#FF7700'],
   },
   title: {
-    text: 'Total HDB Resale Trasaction by Month',
+    text: 'Total HDB Resale Transaction by Month',
     align: 'center',
     margin: 10,
     offsetX: 0,
     offsetY: 0,
     style: {
-      fontSize: '18px',
+      fontSize: '16px',
       fontWeight: 'bold',
-      fontFamily: 'Arial, Helvetica, sans-serif',
-      color: '#f42272'
+      fontFamily: 'PT Serif, serif',
+      color: '#3A506B'
     },
   },
 
@@ -202,11 +204,21 @@ const options2 = {
     enabled: false
   },
   stroke: {
-    curve: 'straight'
+    curve: 'straight',
+    colors: ['#FF7700'],
   },
   title: {
     text: 'Total HDB Resale Trasaction by Month',
-    align: 'center'
+    align: 'center',
+    margin: 10,
+    offsetX: 0,
+    offsetY: 0,
+    style: {
+      fontSize: '16px',
+      fontWeight: 'bold',
+      fontFamily: 'PT Serif, serif',
+      color: '#3A506B'
+    },
   },
   grid: {
     row: {

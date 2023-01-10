@@ -387,11 +387,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Jan HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -430,7 +433,8 @@ window.addEventListener("DOMContentLoaded", async function() {
     const options = {
       chart: {
         type: 'bar',
-        height: 350
+        height: 350,
+
       },
       plotOptions: {
         bar: {
@@ -445,11 +449,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Feb HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -484,13 +491,15 @@ window.addEventListener("DOMContentLoaded", async function() {
     const options = {
       chart: {
         type: 'bar',
-        height: 350
+        height: 350,
+        colors: ['#FF7700']
       },
       plotOptions: {
         bar: {
           horizontal: false,
           columnWidth: '55%',
-          endingShape: 'rounded'
+          endingShape: 'rounded',
+
         },
       },
       dataLabels: {
@@ -499,11 +508,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Mar HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -540,7 +552,7 @@ window.addEventListener("DOMContentLoaded", async function() {
     const options = {
       chart: {
         type: 'bar',
-        height: 350
+        height: 350,
       },
       plotOptions: {
         bar: {
@@ -555,11 +567,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Apr HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -611,11 +626,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'May HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -667,11 +685,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Jun HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -723,11 +744,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Jul HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -779,11 +803,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Aug HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -835,11 +862,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Sep HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -891,11 +921,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Oct HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -944,7 +977,7 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Nov HDB Sale Transaction Price',
@@ -997,11 +1030,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Dec HDB Sale Transaction Price',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1053,11 +1089,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1107,11 +1146,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1161,11 +1203,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1215,11 +1260,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1270,11 +1318,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1324,11 +1375,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1378,11 +1432,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1433,11 +1490,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1487,11 +1547,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1542,11 +1605,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1596,11 +1662,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1650,11 +1719,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Dec',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1705,11 +1777,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1759,11 +1834,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1814,11 +1892,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1869,11 +1950,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1925,11 +2009,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -1980,11 +2067,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2035,11 +2125,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2090,11 +2183,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2144,11 +2240,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2199,11 +2298,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2254,11 +2356,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2309,11 +2414,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Dec',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2364,11 +2472,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2418,11 +2529,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2472,11 +2586,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2525,11 +2642,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2579,11 +2699,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2632,11 +2755,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2685,11 +2811,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2738,11 +2867,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2792,11 +2924,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2846,11 +2981,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2900,11 +3038,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -2954,11 +3095,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3009,11 +3153,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3064,11 +3211,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3118,11 +3268,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3171,11 +3324,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3226,11 +3382,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3280,11 +3439,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3333,11 +3495,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3387,11 +3552,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3440,11 +3608,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3494,11 +3665,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3548,11 +3722,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3602,11 +3779,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Dec',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3656,11 +3836,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3711,11 +3894,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3765,11 +3951,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3819,11 +4008,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3873,11 +4065,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3927,11 +4122,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -3981,11 +4179,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4034,11 +4235,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4087,11 +4291,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4141,11 +4348,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4194,11 +4404,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4249,11 +4462,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4304,11 +4520,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4357,11 +4576,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4410,11 +4632,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4464,11 +4689,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4518,11 +4746,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4572,11 +4803,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4625,11 +4859,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4679,11 +4916,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4732,11 +4972,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4786,11 +5029,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4839,11 +5085,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4893,11 +5142,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -4948,11 +5200,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5003,11 +5258,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5057,11 +5315,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5110,11 +5371,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5164,11 +5428,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5217,11 +5484,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5271,11 +5541,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5325,11 +5598,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5378,11 +5654,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5431,11 +5710,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5484,11 +5766,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5537,11 +5822,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5591,11 +5879,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5644,11 +5935,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5697,11 +5991,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5751,11 +6048,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5804,11 +6104,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5857,11 +6160,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5911,11 +6217,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -5965,11 +6274,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6019,11 +6331,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6072,11 +6387,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6126,11 +6444,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6180,11 +6501,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6233,11 +6557,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6286,11 +6613,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6340,11 +6670,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6393,11 +6726,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6446,11 +6782,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6499,11 +6838,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6553,11 +6895,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6606,11 +6951,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6661,11 +7009,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6715,11 +7066,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6768,11 +7122,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6821,11 +7178,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6875,11 +7235,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6928,11 +7291,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -6982,11 +7348,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7035,11 +7404,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7088,11 +7460,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7141,11 +7516,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7195,11 +7573,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7248,11 +7629,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7303,11 +7687,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7357,11 +7744,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7410,11 +7800,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7463,11 +7856,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7517,11 +7913,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7570,11 +7969,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7624,11 +8026,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7677,11 +8082,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7730,11 +8138,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7783,11 +8194,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7837,11 +8251,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7890,11 +8307,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7945,11 +8365,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -7999,11 +8422,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8052,11 +8478,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8105,11 +8534,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8159,11 +8591,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8212,11 +8647,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8266,11 +8704,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8319,11 +8760,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8372,11 +8816,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8425,11 +8872,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8479,11 +8929,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8532,11 +8985,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8587,11 +9043,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8641,11 +9100,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8694,11 +9156,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8747,11 +9212,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Dec',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8801,11 +9269,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8854,11 +9325,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8908,11 +9382,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -8961,11 +9438,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9014,11 +9494,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9067,11 +9550,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9121,11 +9607,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9174,11 +9663,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9229,11 +9721,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9283,11 +9778,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9336,11 +9834,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9389,11 +9890,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9443,11 +9947,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9496,11 +10003,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9550,11 +10060,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9603,11 +10116,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9656,11 +10172,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9709,11 +10228,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9763,11 +10285,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9816,11 +10341,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9871,11 +10399,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9925,11 +10456,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -9978,11 +10512,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10031,11 +10568,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10085,11 +10625,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10138,11 +10681,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10192,11 +10738,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10245,11 +10794,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10298,11 +10850,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10351,11 +10906,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10405,11 +10963,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10458,11 +11019,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10513,11 +11077,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10567,11 +11134,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10620,11 +11190,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10673,11 +11246,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10728,11 +11304,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10781,11 +11360,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10835,11 +11417,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10888,11 +11473,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10941,11 +11529,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -10994,11 +11585,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11048,11 +11642,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11101,11 +11698,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11156,11 +11756,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11210,11 +11813,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11263,11 +11869,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11316,11 +11925,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11371,11 +11983,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11424,11 +12039,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11478,11 +12096,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11531,11 +12152,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11584,11 +12208,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11637,11 +12264,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11691,11 +12321,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11744,11 +12377,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11799,11 +12435,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11853,11 +12492,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11906,11 +12548,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -11959,11 +12604,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12013,11 +12661,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12066,11 +12717,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12120,11 +12774,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12173,11 +12830,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12226,11 +12886,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12279,11 +12942,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12333,11 +12999,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12386,11 +13055,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12441,11 +13113,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12495,11 +13170,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12548,11 +13226,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12601,11 +13282,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12655,11 +13339,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12708,11 +13395,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12762,11 +13452,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12815,11 +13508,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12868,11 +13564,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12921,11 +13620,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -12975,11 +13677,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13028,11 +13733,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13083,11 +13791,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13137,7 +13848,7 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
@@ -13190,11 +13901,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13243,11 +13957,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13298,11 +14015,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13351,11 +14071,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13405,11 +14128,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13458,11 +14184,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13511,11 +14240,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13564,11 +14296,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13618,11 +14353,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13671,11 +14409,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13726,11 +14467,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13780,11 +14524,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13833,11 +14580,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13886,11 +14636,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13940,11 +14693,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -13993,11 +14749,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14047,11 +14806,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14100,11 +14862,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14153,11 +14918,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14206,11 +14974,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14260,11 +15031,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14313,11 +15087,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14368,11 +15145,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14422,11 +15202,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14475,11 +15258,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14528,11 +15314,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14583,11 +15372,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14636,11 +15428,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14690,11 +15485,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14743,11 +15541,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14796,11 +15597,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14849,11 +15653,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14903,11 +15710,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -14956,11 +15766,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15011,11 +15824,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15065,11 +15881,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15118,11 +15937,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15171,11 +15993,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15226,11 +16051,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15279,11 +16107,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15333,11 +16164,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15386,11 +16220,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15439,11 +16276,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15492,11 +16332,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15546,11 +16389,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15599,11 +16445,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15654,11 +16503,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15708,11 +16560,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15761,11 +16616,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15814,11 +16672,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15869,11 +16730,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15922,11 +16786,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -15976,11 +16843,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16029,11 +16899,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16082,11 +16955,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16135,11 +17011,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16189,11 +17068,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16242,11 +17124,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16297,11 +17182,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16351,11 +17239,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16404,11 +17295,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16457,11 +17351,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16511,11 +17408,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jan',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16564,11 +17464,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Feb',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16618,11 +17521,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Mar',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16671,11 +17577,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Apr',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16724,11 +17633,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for May',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16777,11 +17689,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jun',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16831,11 +17746,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Jul',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16884,11 +17802,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Aug',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16939,11 +17860,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Sep',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -16993,11 +17917,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Oct',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -17046,11 +17973,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
@@ -17099,11 +18029,14 @@ window.addEventListener("DOMContentLoaded", async function() {
       stroke: {
         show: true,
         width: 2,
-        colors: ['transparent']
+        colors: ['#FF7700']
       },
       title: {
         text: 'Transactions for Nov',
         align: 'center'
+      },
+      fill: {
+        colors: ['#FF7700']
       },
 
       series: [
