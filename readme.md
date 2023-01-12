@@ -1,7 +1,7 @@
 # A Glance of HDB Resale Market Price for 2022
 The aim of this project is to allow users to easily visualize past HDB transactions without having trouble to look up the excel sheet. It is dedicated to researchers, real estate stakeholders as well as even ordinary users. Noticed that potential house buyers might have difficulties to look through the plain excel sheets of past transactions and in order to make their lives easier, this project have been created and implemented. 
 Live link to the project: 
-https://project-1-a-glance-of-hdb-resale-market-price-for-2022.kaungmyathtut.repl.co/
+https://zesty-toffee-4aa1bc.netlify.app/
 
 ## UI/UX
 
