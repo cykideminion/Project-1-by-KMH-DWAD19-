@@ -53,6 +53,13 @@ display: flex;
   
 }
 
+.narbartab{
+  font-family:'Philosopher', sans-serif;
+  color:  #f8f5f2;
+  font-size: 30px;
+  
+}
+
 .townselector{
   display: inline-block;
   margin: 0;
@@ -250,6 +257,7 @@ input{
   background-color: #ec8ea5;
   border-radius: 30px;
   
+  
 }
 
 .footer .social{
@@ -315,7 +323,6 @@ font-size: 20px;
 .p2{
   text-align: center; 
   justify-content: center;
-  padding: 30px 300px 30px 300px;
   font-family:'Philosopher', sans-serif;
   font-size: 20px;
 }
@@ -333,12 +340,40 @@ font-size: 20px;
 
 
 .h1bodystyle{
-  text-align: center;
-  color: #f19009;
+  text-align: left;
+  color: #ebebea;
   font-family:'Philosopher', sans-serif;
     font-size: 25px;   
   margin-left: 10px;
-  align-items: center;
-  text-justify: auto;
+  
+  
 }
+
+.listyle{
+  text-align: left;  
+  font-family:'Philosopher', sans-serif;
+    font-size: 20px;   
+  margin-left: 10px;
+  height: 80vh;
+ 
+  
+}
+
+.featbtn{
+  text-align: left;  
+  font-family:'Philosopher', sans-serif;
+    font-size: 20px;   
+  margin-left: 10px;
+ 
+  
+}
+
+.secdiv{
+  min-height: 100vh;
+}
+
+.footdiv{
+  margin-top: auto;
+}
+
 

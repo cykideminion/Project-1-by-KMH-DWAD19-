@@ -52,3 +52,19 @@ Ionic framework has been utilized to load up the social media logos.
 1. Click the Blue Buttons with different town name in the middle of home page.
 2. Individual transacted prices of the selected town will render in 12 charts with representations of 12 months.
 3. If user want to view another town's transactions, he/she must click back the initially clicked Button to close back the collapse before clicking next button.
+   
+### Deployment
+- Hosting Platform - **[https://www.netlify.com/](https://www.netlify.com/)**
+#### Deployment Steps
+- Sign up account at netlify.
+- Commit the latest code to Github.
+- Create the new site from Github.
+- Search my repo with the project.
+- Select the repo and it is Done.
+
+### Credits and Acknowledgement
+- Lectures and tutorials from Paul.
+- https://stackoverflow.com/questions/5866169/how-to-get-all-selected-values-of-a-multiple-select-box
+- https://stackoverflow.com/questions/64296388/easier-way-to-pass-multiple-parameters-in-a-function-with-javascript
+- https://stackoverflow.com/questions/14446511/most-efficient-method-to-groupby-on-an-array-of-objects
+- https://stackoverflow.com/questions/19236717/how-to-make-a-bootstrap-accordion-collapse-when-clicking-the-header-div

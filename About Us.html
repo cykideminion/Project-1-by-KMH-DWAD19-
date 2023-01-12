@@ -34,13 +34,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active navbarr" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link narbartab  navbarr" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbarr" href="detail.html">Details Transaction</a>
+            <a class="nav-link narbartab navbarr" href="detail.html">Details Transaction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbarr" href="detail.html">About Us</a>
+            <a class="nav-link active narbartab navbarr" href="detail.html">About Us</a>
           </li>
         </ul>
       </div>
@@ -48,36 +48,61 @@
   </nav>
 
   <!--   nav bar ends -->
-  <h5 class="mainheaderstyle">A Glance of HDB Resale Market Price for 2022</h5>
+  <h5 class="container-fluid mainheaderstyle">A Glance of HDB Resale Market Price for 2022</h5>
 
-  <section>
+  <section class="secdiv">
     <article>
-      <div>
+      <div class=" container-fluid">
         <h1 class="h1style">Aim of the project</h1>
-        <p class="p2">
-          The objective of this project is to allow users to easily visualize past HDB transactions without having
-          trouble
-          to
-          look up the excel sheet. It is dedicated to researchers, real estate stakeholders as well as even ordinary
-          users.
-          Noticed that potential house buyers might have difficulties to look through the plain excel sheets of past
-          transactions
-          and in order to make their lives easier, this project have been created and implemented.
-        </p>
       </div>
 
-      <div class="p2">
+      <div class="p2  container-fluid">
         <h1 class="h1style">Features</h1>
-        <ol class="h1bodystyle"> 
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+        <button onclick="showHide()" type="button" id="featbtn" class="btn btn-primary">
+          <h4 class="h1bodystyle">1st main feature (2 Customizable Comparison chart)</h4>
+        </button>
+        <div id="listyle"> </div>
+        <br>
+        <br>
+        <button onclick="showHide2()" type="button" id="featbtn" class="btn btn-primary">
+          <h4 class="h1bodystyle">2nd Main feature (Town Buttons)</h4>
+        </button>
+        <div id="listyle2"> </div>
       </div>
     </article>
 
   </section>
+
+  <footer class="footdiv"">
+    <div class=" footer">
+    <div class="social">
+      <a href="https://www.instagram.com/">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="https://www.twitter.com/">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+      <a href="https://www.snapchat.com/">
+        <ion-icon name="logo-snapchat"></ion-icon>
+      </a>
+      <a href="https://www.facebook.com/">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+    </div>
+    <ul class="listfoot">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="detail.html">Detail Information</a>
+      </li>
+      <li>
+        <a href="About Us.html">About Us</a>
+      </li>
+      </div>
+
+
+  </footer>
 
 
 
@@ -93,9 +118,9 @@
   <script src="data.js"></script>
   <script src="chart.js"></script>
   <script src="detailchart.js"></script>
-
-  <script src="tem.js"></script>
   <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <!--   Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

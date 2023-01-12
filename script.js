@@ -248,4 +248,22 @@ chartsync.render()
 // end of sync chart
 
 
+// About us Btn 
+function showHide() {
+  let listyle = document.getElementById('listyle');
+  if (listyle.innerHTML === "") {
+    listyle.innerHTML = "There are two main charts with customizable data in the home page whereby users can select the Towns, Room type and Floor Type that they want to compare. Once the options are selected, two charts will render the Total Sales of HDB for the selected data. This feature is more useful for researchers and real estate stakeholders whereby they could identify the trends";
+  } else {
+    listyle.innerHTML = "";
+  }
+}
 
+function showHide2() {
+
+  if (listyle2.innerHTML === "") {
+    let listyle2 = document.getElementById('listyle2');
+    listyle2.innerHTML = "These features would be more beneficial to potential house buyers and real estate stakeholders. In this feature, users can select the towns and it will render all past transactions of 3 Room flats with road names in the past 12 months of the year 2022.";
+  } else {
+    listyle2.innerHTML = "";
+  }
+}

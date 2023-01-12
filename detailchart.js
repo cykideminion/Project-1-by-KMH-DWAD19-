@@ -32,11 +32,7 @@ let optionssta = {
     group: 'Number of HDB transacted',
     id: 'type2',
     stacked: true,
-    events: {
-      selection: function(chart, e) {
-        console.log(new Date(e.xaxis.min))
-      }
-    },
+
   },
   colors: ['#008FFB', '#00E396', '#e28743', '#42d4f5', '#f42272', '#f397d6'],
   dataLabels: {
@@ -98,11 +94,7 @@ let optionssta2 = {
     group: 'Number of HDB transacted',
     id: 'type2',
     stacked: true,
-    events: {
-      selection: function(chart, e) {
-        console.log(new Date(e.xaxis.min))
-      }
-    },
+
   },
   colors: ['#008FFB', '#00E396', '#e28743', '#42d4f5', '#f42272', '#f397d6'],
   dataLabels: {
@@ -168,11 +160,7 @@ let optionssta3 = {
     group: 'Number of HDB transacted',
     id: 'type2',
     stacked: true,
-    events: {
-      selection: function(chart, e) {
-        console.log(new Date(e.xaxis.min))
-      }
-    },
+
   },
   colors: ['#008FFB', '#00E396', '#e28743', '#42d4f5', '#f42272', '#f397d6'],
   dataLabels: {
@@ -238,11 +226,7 @@ let optionssta4 = {
     group: 'Number of HDB transacted',
     id: 'type2',
     stacked: true,
-    events: {
-      selection: function(chart, e) {
-        console.log(new Date(e.xaxis.min))
-      }
-    },
+
   },
   colors: ['#008FFB', '#00E396', '#e28743', '#42d4f5', '#f42272', '#f397d6'],
   dataLabels: {
