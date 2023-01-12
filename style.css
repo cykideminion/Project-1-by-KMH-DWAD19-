@@ -214,6 +214,17 @@ input{
   
 }
 
+.title{
+  color: #FF7700;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-size: 30px;
+  border: solid;
+  border-color:  #FF7700;
+  border-radius: 15px;
+ 
+}
+
 
 .syncchart{
   
@@ -291,12 +302,43 @@ font-size: 20px;
   opacity: 1;
 }
 
-.h1style{
+.mainheaderstyle{
   text-align: center;
   color: #f19009;
-  font-family: 'PT Serif', serif;
+  font-family:'Philosopher', sans-serif;
   font-style: bold;
-  font-size: 35px;   
+  font-size: 55px;   
   margin-left: 10px;
   align-items: center;
 }
+
+.p2{
+  text-align: center; 
+  justify-content: center;
+  padding: 30px 300px 30px 300px;
+  font-family:'Philosopher', sans-serif;
+  font-size: 20px;
+}
+
+.h1style{
+  text-align: center;
+  color: #f19009;
+  font-family:'Philosopher', sans-serif;;
+  font-style: italic;
+  font-size: 30px;   
+  margin-left: 10px;
+  align-items: center;
+  text-justify: auto;
+}
+
+
+.h1bodystyle{
+  text-align: center;
+  color: #f19009;
+  font-family:'Philosopher', sans-serif;
+    font-size: 25px;   
+  margin-left: 10px;
+  align-items: center;
+  text-justify: auto;
+}
+
